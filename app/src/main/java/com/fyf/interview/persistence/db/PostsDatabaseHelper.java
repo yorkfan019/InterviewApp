@@ -1,4 +1,4 @@
-package com.fyf.interview.persistence;
+package com.fyf.interview.persistence.db;
 
 import android.content.ContentValues;
 import android.content.Context;
