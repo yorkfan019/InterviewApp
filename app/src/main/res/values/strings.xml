@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Android-studio</string>
+    <string name="app_name">InterviewApp</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_second">SecondActivity</string>
-    <string name="title_activity_base">BaseActivity</string>
-    <string name="title_activity_login">LoginActivity</string>
+    <string name="sqlite_activity_title">数据库操作</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_edit">编辑</string>
+    <string name="btn_del">删除</string>
 </resources>

@@ -12,18 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="first edit text!"
+        tools:text="hhhhh!!tools"
         android:id="@+id/edit_text" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:text="click"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/second_activity"
-        android:text="Second_activity"/>
 
 </LinearLayout>
