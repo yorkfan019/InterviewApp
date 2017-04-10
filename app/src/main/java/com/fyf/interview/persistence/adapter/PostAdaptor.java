@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.fyf.interview.R;
+import com.fyf.interview.persistence.db.PostsDatabaseHelper;
 import com.fyf.interview.persistence.model.Post;
 
 import java.util.List;
@@ -90,7 +91,9 @@ public class PostAdaptor extends RecyclerView.Adapter<PostAdaptor.ViewHolder> {
         delButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                PostsDatabaseHelper postsDatabaseHelper = PostsDatabaseHelper.getInstance(mContext);
+                // Add sample post to the database
+                postsDatabaseHelper.deleteAllPostsAndUsers();
             }
         });
     }
