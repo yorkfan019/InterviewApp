@@ -11,5 +11,12 @@
         android:text="@string/btn_persistence_sample"
         />
 
+    <Button
+        android:id="@+id/btn_webview_sample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_webview_sample"
+        />
+
 
 </LinearLayout>

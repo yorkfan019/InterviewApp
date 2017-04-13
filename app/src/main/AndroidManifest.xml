@@ -28,7 +28,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".persistence.activitiys.PostListActivity"></activity>
+        <activity android:name=".persistence.activitiys.PostListActivity" />
+        <activity
+            android:name=".webviewSample.activitys.webviewWithJsActivity"
+            android:label="@string/title_activity_webview_with_js"></activity>
     </application>
 
 </manifest>

@@ -7,4 +7,6 @@
     <string name="btn_edit">编辑</string>
     <string name="btn_del">删除</string>
     <string name="btn_persistence_sample">Persistence Sample</string>
+    <string name="btn_webview_sample">WebView Sample</string>
+    <string name="title_activity_webview_with_js">webviewWithJsActivity</string>
 </resources>
